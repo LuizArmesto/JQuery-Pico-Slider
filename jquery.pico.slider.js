@@ -8,7 +8,7 @@
  * November 2011
  */
  (function($) {
-    Slider = function(element, args) {
+    PicoSlider = function(element, args) {
         var me = $(element);
         var effect = args["effect"];
         var animTime = args["animSpeed"];
@@ -101,7 +101,7 @@
     $.fn.picoSlider = function(args) {
         return this.each(function(key, value){
             var element = $(this);
-            var slider = new Slider(element, args);
+            var slider = new PicoSlider(element, args);
             element.data("picoslider", slider);
         });			        
     }
