@@ -1,6 +1,6 @@
 /*
  * jQuery Pico Slider v0.1
- * https://github.com/LuizArmesto/jquery_pico_slider
+ * https://github.com/LuizArmesto/JQuery-Pico-Slider
  *
  * Copyright 2011, Luiz Armesto
  * Dual licensed under the MIT or GPL Version 2 licenses, just like jQuery itself.
